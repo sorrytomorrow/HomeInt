@@ -443,7 +443,7 @@ void OneNet_SendData(void)
 	
 	MQTT_PACKET_STRUCTURE mqttPacket = {NULL, 0, 0, 0};												//协议包
 	
-	char buf[256];
+	char buf[256];     //设置内存存储的大小256个byte
 	
 	short body_len = 0, i = 0;
 	
@@ -451,7 +451,7 @@ void OneNet_SendData(void)
 	
 	memset(buf, 0, sizeof(buf));
 	
-	body_len = OneNet_FillBuf(buf);																	//获取当前需要发送的数据流的总长度
+	body_len = OneNet_FillBuf(buf);			  	//把这一块内存给了json数据													//获取当前需要发送的数据流的总长度
 	
 	if(body_len)
 	{
