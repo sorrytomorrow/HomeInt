@@ -18,6 +18,8 @@
 # APP效果
 ![image](https://github.com/user-attachments/assets/b53cf548-bc99-4e2c-9014-f8623fa05a5d)
 # 视频演示
+# 参考的b站up主视频(链接在下方，onenet平台设备需自己创建，可以参考下方链接)
+## https://www.bilibili.com/video/BV1HH4y1o7EN?p=1&vd_source=23ff000af5bf725a92efa02f9d617847
 
 
 
